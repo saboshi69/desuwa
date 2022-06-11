@@ -7,7 +7,7 @@ const useMultiAudio = (urls: string[]) => {
       urls.map((url: string) => {
         return {
           // playing: false,
-          audio: new Audio(url),
+          audio: typeof Audio !== "undefined" ? new Audio(url) : null,
         };
       }),
     [urls]
@@ -15,8 +15,8 @@ const useMultiAudio = (urls: string[]) => {
 
   const playSound = (targetIndex: number) => {
     const pickedIndex = Math.floor(Math.random() * (listLength - 1));
-    players[pickedIndex].audio.currentTime = 0;
-    players[pickedIndex].audio.play();
+    players[pickedIndex].audio!.currentTime = 0;
+    players[pickedIndex].audio?.play();
   };
 
   return playSound;

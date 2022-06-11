@@ -51,6 +51,12 @@ function InfoPopup({ setIsInfoShow, isInfoShow = true, className }: Props) {
             className="absolute top-2 right-2 text-orange-700"
           />
           <div>
+            <h5 className="font-semibold">About this site</h5>
+            <p className="mb-2">
+              This website is a fan-made website and it is not officially owned
+              by NIJISANJI, nor is it affiliated with ANYCOLOR Corporation or
+              any of its subsidiaries.
+            </p>
             <h5 className="font-semibold">Credits</h5>
             <a
               target="_blank"
@@ -59,6 +65,23 @@ function InfoPopup({ setIsInfoShow, isInfoShow = true, className }: Props) {
               className="hover:underline"
             >
               Party hall vector created by vectorpouch - www.freepik.com
+            </a>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/channel/UCgIfLpQvelloDi8I0Ycbwpg"
+              rel="noreferrer"
+              className="hover:underline mb-2 inline-block"
+            >
+              壱百満天原サロメ Youtube Channel
+            </a>
+            <h5 className="font-semibold">Creator / Github Repo</h5>
+            <a
+              href="https://github.com/saboshi69/desuwa"
+              rel="noreferrer"
+              target="_blank"
+              className="hover:underline"
+            >
+              saboshi69
             </a>
           </div>
         </section>

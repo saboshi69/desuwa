@@ -11,7 +11,7 @@ function MainBackground() {
   return (
     <div className="-z-50 fixed h-full w-full">
       <Image
-        src="/static/bg.jpg"
+        src="https://saboshi69.github.io/asset/desuwa/image/bg.jpg"
         alt="Picture of the author"
         layout="fill"
         objectFit="cover"
