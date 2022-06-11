@@ -70,9 +70,17 @@ function InfoPopup({ setIsInfoShow, isInfoShow = true, className }: Props) {
               target="_blank"
               href="https://www.youtube.com/channel/UCgIfLpQvelloDi8I0Ycbwpg"
               rel="noreferrer"
-              className="hover:underline mb-2 inline-block"
+              className="hover:underline"
             >
               壱百満天原サロメ Youtube Channel
+            </a>
+            <a
+              target="_blank"
+              href="https://impomu.com/"
+              rel="noreferrer"
+              className="hover:underline mb-2 inline-block"
+            >
+              Inspired by https://impomu.com/
             </a>
             <h5 className="font-semibold">Creator / Github Repo</h5>
             <a
